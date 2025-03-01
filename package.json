@@ -1,0 +1,21 @@
+{
+	"name": "one-dark-vibrant-theme",
+	"displayName": "One Dark Vibrant Theme",
+	"description": "description",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.97.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Dark Vibrant Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/One Dark Vibrant Theme-color-theme.json"
+			}
+		]
+	}
+}
