@@ -4,7 +4,7 @@
 	"description": "One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark theme.",
 	"version": "1.0.0",
 	"license": "MIT",
-	"publisher": "JoseRodriguez",
+	"publisher": "josergz",
 	"icon": "img/icon.png",
 	"engines": {
 		"vscode": "^1.97.0"
