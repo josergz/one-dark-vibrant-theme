@@ -1,16 +1,13 @@
-# one-dark-vibrant-theme README
+# One Dark Vibrant Theme
 
-## Working with Markdown
+One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark theme. Based on [One Dark Darker](https://marketplace.visualstudio.com/items?itemName=JoelCrosby.one-dark-darker) by JoelCrosby and inspired by [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme), this theme features brighter and more saturated colors for a modern and eye-catching coding experience. Perfect for developers who love the One Dark aesthetic but want a more lively and dynamic look.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+**Key Features:**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Enhanced color palette for better contrast and readability.
+- Optimized for modern web development (JavaScript, TypeScript, HTML, CSS).
+- Perfect for long coding sessions with reduced eye strain.
 
-## For more information
+## Screenshots
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![ScreenShot](img/img-preview.png)
