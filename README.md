@@ -11,3 +11,8 @@ One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark
 ## Screenshots
 
 ![ScreenShot](img/img-preview.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+Copyright (c) 2025 josergz
