@@ -6,6 +6,10 @@
 	"engines": {
 		"vscode": "^1.97.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/josergz/one-dark-vibrant-theme"
+	},
 	"categories": [
 		"Themes"
 	],
