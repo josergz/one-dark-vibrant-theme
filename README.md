@@ -12,6 +12,10 @@ One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark
 
 ![ScreenShot](img/img-preview.png)
 
+## Maintenance
+
+This theme is actively maintained and kept compatible with the latest versions of Visual Studio Code. Minor updates may include documentation improvements, visual refinements, and general maintenance.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
