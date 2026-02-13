@@ -1,36 +1,36 @@
 {
-	"name": "one-dark-vibrant-theme",
-	"displayName": "One Dark Vibrant Theme",
-	"description": "One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark theme.",
-	"version": "1.0.2",
-	"license": "MIT",
-	"publisher": "josergz",
-	"icon": "img/icon.png",
-	"engines": {
-		"vscode": "^1.97.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/josergz/one-dark-vibrant-theme"
-	},
-	"keywords": [
-		"theme",
-		"dark",
-		"vibrant",
-		"one dark",
-		"web development",
-		"colorful"
-	],
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "One Dark Vibrant Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/OneDarkVibrantTheme-color-theme.json"
-			}
-		]
-	}
+  "name": "one-dark-vibrant-theme",
+  "displayName": "One Dark Vibrant Theme",
+  "description": "One Dark Vibrant Theme is a vibrant and colorful version of the popular One Dark theme.",
+  "version": "1.1.0",
+  "license": "MIT",
+  "publisher": "josergz",
+  "icon": "img/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josergz/one-dark-vibrant-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "vibrant",
+    "one dark",
+    "web development",
+    "colorful"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Vibrant Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDarkVibrantTheme-color-theme.json"
+      }
+    ]
+  }
 }
