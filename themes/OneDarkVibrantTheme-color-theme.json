@@ -14,7 +14,7 @@
     "editor.findMatchBackground": "#314365",
     "editor.findMatchBorder": "#457dff",
     "editor.findMatchHighlightBackground": "#31436580",
-    "editor.foreground": "#abb2bf",
+    "editor.foreground": "#E0E0E0",
     "editor.lineHighlightBackground": "#1d1f23",
     "editor.selectionBackground": "#3e4451",
     "editor.selectionHighlightBackground": "#ffffff10",
@@ -122,6 +122,25 @@
     }
   },
   "tokenColors": [
+    {
+      "name": "Plain Text / JSX / TSX / JS / TS",
+      "scope": [
+        "source.js meta.embedded.expression", // JS dentro de JSX { ... }
+        "source.ts meta.embedded.expression", // TS dentro de JSX { ... }
+        "meta.jsx.children", // texto plano dentro de JSX
+        "meta.tsx.children", // texto plano dentro de TSX
+        "text.html.basic", // HTML simple
+        "text.html.jsx", // HTML dentro de JSX
+        "source.js", // JS puro
+        "source.ts", // TS puro
+        "source.tsx", // TSX puro
+        "source.jsx", // JSX puro
+        "text.plain" // texto plano genérico
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // aquí el color que quieras
+      }
+    },
     {
       "name": "punctuation.definition.block.sequence.item.yaml",
       "scope": "punctuation.definition.block.sequence.item.yaml",

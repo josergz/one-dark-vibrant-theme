@@ -1,6 +1,6 @@
 # One Dark Vibrant Theme
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.2.1-blue)
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/josergz.one-dark-vibrant-theme?color=green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
