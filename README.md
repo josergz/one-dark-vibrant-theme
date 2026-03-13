@@ -30,9 +30,3 @@ This theme is actively maintained and kept compatible with the latest versions o
 
 This project is licensed under the [MIT License](LICENSE).
 Copyright (c) 2025 josergz
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to help improve this theme.
-
-[![Contributors](https://contrib.rocks/image?repo=josergz/one-dark-vibrant-theme)](https://github.com/josergz/one-dark-vibrant-theme/graphs/contributors)

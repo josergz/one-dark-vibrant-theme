@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.2.2 | 2026-03-13
+
+### Improvements
+
+- **Better Visual Comfort**: Replaced the aggressive green tone with a softer, more balanced shade to reduce eye strain during long coding sessions.
+- **Vibrant Punctuation**: Standardized all separators, commas, and dots to `#E0E0E0` for razor-sharp clarity in JS, TS, and JSON files.
+- **UI Integration**: Updated the status bar foreground to match the editor's high-contrast palette.
+
+### Notes
+
+- This update balances structural visibility and syntax highlighting, ensuring that connectors like dots and commas are easy to spot without distracting from the main code.
+
 ## 1.2.1 | 2026.02.13
 
 ### Fixes
