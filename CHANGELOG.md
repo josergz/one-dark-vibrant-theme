@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 1.2.3 | 2026-03-20
+
+### Improvements
+
+- **TypeScript Logic Refinement**: Fixed the Union Type operator (`|`) color to match the logical `||` and `&&` operators, providing a consistent "One Dark Pro" experience in TS and TSX files.
+- **Enhanced SEO & Branding**: Rebranded the theme as **One Dark Pro Vibrant** to improve discoverability and alignment with the One Dark ecosystem.
+- **Framework Optimization**: Fine-tuned syntax highlighting specifically for **Astro** and **React** components to ensure better visual hierarchy in modern web stacks.
+
+### Documentation
+
+- **Updated README**: Added high-quality previews and optimized descriptions for the VS Code Marketplace.
+- **Folder Consistency**: Updated recommended settings for Material Icon Theme to match the new vibrant palette.
+
+### Notes
+
+- This update focuses on making the theme more "pro-ready" for TypeScript developers, ensuring that type definitions and logical operators are perfectly balanced.
+
 ## 1.2.2 | 2026-03-13
 
 ### Improvements
