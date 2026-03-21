@@ -75,7 +75,7 @@
     "terminal.ansiRed": "#FF0000",
     "terminal.ansiYellow": "#FFA500"
   },
-  "name": "One Dark Vibrant Theme",
+  "name": "One Dark Pro Vibrant Theme",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {

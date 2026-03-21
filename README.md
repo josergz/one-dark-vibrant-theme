@@ -1,10 +1,10 @@
-# One Dark Pro Vibrant
+# One Dark Pro Vibrant Theme
 
 ![Version](https://img.shields.io/badge/version-1.2.3-blue?style=flat-square)
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/josergz.one-dark-vibrant-theme?color=56B6C2&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
-**One Dark Pro Vibrant** is a high-contrast, logically-colored evolution of the iconic **One Dark Pro** syntax. If you love the classic **One Dark Pro Theme** but crave more saturation and better syntax separation, this is your new default setup.
+**One Dark Pro Vibrant Theme** is a high-contrast, logically-colored evolution of the iconic **One Dark Pro** syntax. If you love the classic **One Dark Pro Theme** but crave more saturation and better syntax separation, this is your new default setup.
 
 ---
 
@@ -25,7 +25,7 @@ This theme is a curated evolution of the **One Dark** aesthetic. It is deeply in
 
 ---
 
-## ✨ Why One Dark Pro Vibrant?
+## ✨ Why One Dark Pro Vibrant Theme?
 
 Unlike other **One Dark** variations, this version is fine-tuned for the modern web ecosystem (**Astro**, **React**, **TypeScript**). It’s not just about "more color"; it's about **visual hierarchy**.
 
