@@ -1,80 +1,4 @@
 {
-  "colors": {
-    // --- 1. MARCOS EXTERNOS (Nivel Base - Profundidad Total) ---
-    "titleBar.activeBackground": "#020202",
-    "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#020202",
-    "titleBar.inactiveForeground": "#6b717d",
-    "statusBar.background": "#000000",
-    "statusBar.foreground": "#9BA3AF",
-    "statusBar.noFolderBackground": "#020202",
-    "statusBar.debuggingBackground": "#020202",
-    "statusBar.debuggingBorder": "#66017a",
-
-    // --- 2. PANELES DE HERRAMIENTAS (Nivel Control - Simetría entre Barras y Terminal) ---
-    "activityBar.background": "#0E0A0A",
-    "activityBar.foreground": "#d7dae0",
-    "activityBar.border": "#020202",
-    "activityBarBadge.background": "#0099ff",
-    "activityBarBadge.foreground": "#E0E0E0",
-
-    "sideBar.background": "#18181d",
-    "sideBar.border": "#020202",
-    "sideBarSectionHeader.background": "#0E0A0A",
-    "sideBarSectionHeader.border": "#020202",
-    "sideBar.dropBackground": "#0E0A0A",
-
-    "terminal.background": "#0E0A0A",
-    "terminal.border": "#020202",
-    "terminal.foreground": "#abb2bf",
-    "terminal.selectionBackground": "#abb2bf30",
-
-    // --- 3. ÁREA DE TRABAJO (Nivel Acción - Foco Visual) ---
-    "editor.background": "#121212",
-    "editor.foreground": "#E0E0E0",
-    "tab.activeBackground": "#121212",
-    "tab.activeForeground": "#dcdcdc",
-    "tab.inactiveBackground": "#18181d",
-    "tab.inactiveForeground": "#676e7b",
-    "tab.border": "#121212",
-    "editorGroupHeader.tabsBackground": "#18181d",
-    "editorGroup.emptyBackground": "#121212",
-    "editorGroup.border": "#020202",
-
-    // --- 4. ELEMENTOS DE INTERACCIÓN (Coherencia en Acentos) ---
-    "editorCursor.foreground": "#497FFD",
-    "editorCursor.background": "#497FFD",
-    "button.background": "#528bff",
-    "focusBorder": "#0E0A0A",
-    "list.activeSelectionBackground": "#2c313c",
-    "list.inactiveSelectionBackground": "#2c313c",
-    "list.hoverBackground": "#2c313c",
-
-    // --- 5. DETALLES DE CÓDIGO Y GUIAS ---
-    "editorLineNumber.foreground": "#495162",
-    "editorLineNumber.activeForeground": "#DCDCDC",
-    "editorIndentGuide.background1": "#2c313c80",
-    "editorIndentGuide.activeBackground1": "#626772",
-    "editor.lineHighlightBackground": "#2c313c60",
-    "editor.selectionBackground": "#3e4451",
-
-    // --- 6. WIDGETS Y BUSQUEDA (Flotan sobre el nivel 2/3) ---
-    "editorWidget.background": "#18181d",
-    "editorSuggestWidget.background": "#18181d",
-    "editorHoverWidget.background": "#18181d",
-    "editor.findMatchBackground": "#314365",
-    "editor.findMatchBorder": "#457dff",
-    "widget.shadow": "#00000000",
-    "scrollbar.shadow": "#00000000",
-
-    // --- 7. TERMINAL ANSI COLORS (Vibrant Style) ---
-    "terminal.ansiBlue": "#1E90FF",
-    "terminal.ansiCyan": "#00CED1",
-    "terminal.ansiGreen": "#32CD32",
-    "terminal.ansiMagenta": "#DA70D6",
-    "terminal.ansiRed": "#FF0000",
-    "terminal.ansiYellow": "#FFA500"
-  },
   "name": "One Dark Pro Vibrant Theme",
   "type": "dark",
   "semanticHighlighting": true,
@@ -88,6 +12,109 @@
     "variable.defaultLibrary": {
       "foreground": "#FFD700"
     }
+  },
+  "colors": {
+    // =========================================================================
+    // 0. TOKENS ESPECÍFICOS DE MODERN UI (Pestañas y Elementos Recientes)
+    // =========================================================================
+    "modernEditorTab.activeBackground": "#121212",
+    "modernEditorTab.activeForeground": "#dcdcdc",
+    "modernTab.activeBackground": "#121212",
+    "modernTab.activeForeground": "#dcdcdc",
+    // Archivos no abiertos en Modern UI (Contraste #18181d)
+    "modernEditorTab.inactiveBackground": "#21252b",
+    // Estados hover en Modern UI
+    "modernEditorTab.hoverBackground": "#2c313c60",
+    "modernEditorTab.hoverForeground": "#dcdcdc",
+    "modernTab.hoverBackground": "#2c313c60",
+    "modernTab.hoverForeground": "#dcdcdc",
+    // Controles y barras en Modern UI
+    "modernActivityBar.background": "#0E0A0A",
+    "modernActivityBar.border": "#020202",
+    // =========================================================================
+    // 1. MARCOS EXTERNOS (Nivel Base - Profundidad Total)
+    // =========================================================================
+    "titleBar.activeBackground": "#020202",
+    "titleBar.activeForeground": "#9da5b4",
+    "titleBar.inactiveBackground": "#020202",
+    "titleBar.inactiveForeground": "#6b717d",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#9BA3AF",
+    "statusBar.noFolderBackground": "#020202",
+    "statusBar.debuggingBackground": "#020202",
+    "statusBar.debuggingBorder": "#66017a",
+    // =========================================================================
+    // 2. PANELES DE HERRAMIENTAS (Nivel Control - Barras y Terminal)
+    // =========================================================================
+    "activityBar.background": "#0E0A0A",
+    "activityBar.foreground": "#d7dae0",
+    "activityBar.border": "#020202",
+    "activityBarBadge.background": "#0099ff",
+    "activityBarBadge.foreground": "#E0E0E0",
+    "sideBar.background": "#18181d",
+    "sideBar.border": "#020202",
+    "sideBarSectionHeader.background": "#0E0A0A",
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBar.dropBackground": "#0E0A0A",
+    "terminal.background": "#0E0A0A",
+    "terminal.border": "#020202",
+    "terminal.foreground": "#abb2bf",
+    "terminal.selectionBackground": "#abb2bf30",
+    // =========================================================================
+    // 3. ÁREA DE TRABAJO Y PESTAÑAS CLÁSICAS (Nivel Acción - Respaldo Estándar)
+    // =========================================================================
+    "editor.background": "#121212",
+    "editor.foreground": "#E0E0E0",
+    "editorGroup.emptyBackground": "#121212",
+    "editorGroup.border": "#020202",
+    "editorGroupHeader.tabsBackground": "#18181d",
+    "tab.activeBackground": "#121212",
+    "tab.activeForeground": "#dcdcdc",
+    "tab.activeBorderTop": "#497FFD",
+    "tab.inactiveBackground": "#18181d",
+    "tab.inactiveForeground": "#676e7b",
+    "tab.unfocusedActiveBackground": "#121212",
+    "tab.unfocusedInactiveBackground": "#18181d",
+    "tab.hoverBackground": "#2c313c60",
+    "tab.border": "#121212",
+    // =========================================================================
+    // 4. ELEMENTOS DE INTERACCIÓN (Coherencia en Acentos)
+    // =========================================================================
+    "editorCursor.foreground": "#497FFD",
+    "editorCursor.background": "#497FFD",
+    "button.background": "#528bff",
+    "focusBorder": "#0E0A0A",
+    "list.activeSelectionBackground": "#2c313c",
+    "list.inactiveSelectionBackground": "#2c313c",
+    "list.hoverBackground": "#2c313c",
+    // =========================================================================
+    // 5. DETALLES DE CÓDIGO Y GUÍAS
+    // =========================================================================
+    "editorLineNumber.foreground": "#495162",
+    "editorLineNumber.activeForeground": "#DCDCDC",
+    "editorIndentGuide.background1": "#2c313c80",
+    "editorIndentGuide.activeBackground1": "#626772",
+    "editor.lineHighlightBackground": "#2c313c60",
+    "editor.selectionBackground": "#3e4451",
+    // =========================================================================
+    // 6. WIDGETS Y BÚSQUEDA (Flotantes)
+    // =========================================================================
+    "editorWidget.background": "#18181d",
+    "editorSuggestWidget.background": "#18181d",
+    "editorHoverWidget.background": "#18181d",
+    "editor.findMatchBackground": "#314365",
+    "editor.findMatchBorder": "#457dff",
+    "widget.shadow": "#00000000",
+    "scrollbar.shadow": "#00000000",
+    // =========================================================================
+    // 7. TERMINAL ANSI COLORS (Vibrant Style)
+    // =========================================================================
+    "terminal.ansiBlue": "#1E90FF",
+    "terminal.ansiCyan": "#00CED1",
+    "terminal.ansiGreen": "#32CD32",
+    "terminal.ansiMagenta": "#DA70D6",
+    "terminal.ansiRed": "#FF0000",
+    "terminal.ansiYellow": "#FFA500"
   },
   "tokenColors": [
     {
@@ -145,7 +172,9 @@
     },
     {
       "name": "meta.brace.square",
-      "scope": [" meta.brace.square"],
+      "scope": [
+        " meta.brace.square"
+      ],
       "settings": {
         "foreground": "#7B8A99"
       }
@@ -174,14 +203,19 @@
     },
     {
       "name": "elements to dim",
-      "scope": ["punctuation.definition.tag.xi", "punctuation.definition.tag"],
+      "scope": [
+        "punctuation.definition.tag.xi",
+        "punctuation.definition.tag"
+      ],
       "settings": {
         "foreground": "#9BA3AF" //-------------------------------------------------------
       }
     },
     {
       "name": "language operators like '+', '-' etc",
-      "scope": ["constant.other.color.rgb-value.xi"],
+      "scope": [
+        "constant.other.color.rgb-value.xi"
+      ],
       "settings": {
         "foreground": "#E0E0E0"
       }
@@ -195,92 +229,119 @@
     },
     {
       "name": "wikiword",
-      "scope": ["wikiword.xi"],
+      "scope": [
+        "wikiword.xi"
+      ],
       "settings": {
         "foreground": "#FF8C00"
       }
     },
     {
       "name": "accent",
-      "scope": ["accent.xi"],
+      "scope": [
+        "accent.xi"
+      ],
       "settings": {
         "foreground": "#1E90FF"
       }
     },
     {
       "name": "link",
-      "scope": ["constant.character.xi"],
+      "scope": [
+        "constant.character.xi"
+      ],
       "settings": {
         "foreground": "#1E90FF"
       }
     },
     {
       "name": "comments",
-      "scope": ["beginning.punctuation.definition.list.markdown.xi"],
+      "scope": [
+        "beginning.punctuation.definition.list.markdown.xi"
+      ],
       "settings": {
         "foreground": "#9FA6B2"
       }
     },
-
     {
       "name": "string",
-      "scope": ["beginning.punctuation.definition.quote.markdown.xi"],
+      "scope": [
+        "beginning.punctuation.definition.quote.markdown.xi"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "heading 6, number",
-      "scope": ["invalid.xi"],
+      "scope": [
+        "invalid.xi"
+      ],
       "settings": {
         "foreground": "#7B8A99"
       }
     },
     {
       "name": "heading 5, enums, preprocessor, constant, decorator",
-      "scope": ["keyword.control.xi"],
+      "scope": [
+        "keyword.control.xi"
+      ],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
       "name": "heading 4, type, class, interface",
-      "scope": ["constant.regexp.xi"],
+      "scope": [
+        "constant.regexp.xi"
+      ],
       "settings": {
         "foreground": "#FF00FF"
       }
     },
     {
       "name": "heading 3, property",
-      "scope": ["constant.character.character-class.regexp.xi"],
+      "scope": [
+        "constant.character.character-class.regexp.xi"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "heading 2, callable",
-      "scope": ["entity.name.class.xi"],
+      "scope": [
+        "entity.name.class.xi"
+      ],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
       "name": "heading 1, keyword",
-      "scope": ["entity.name.function.xi"],
+      "scope": [
+        "entity.name.function.xi"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "types",
-      "scope": ["support.type.swift", "support.type.vb.asp"],
+      "scope": [
+        "support.type.swift",
+        "support.type.vb.asp"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "SQL Variables",
-      "scope": ["text.variable", "text.bracketed"],
+      "scope": [
+        "text.variable",
+        "text.bracketed"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
@@ -301,84 +362,109 @@
     },
     {
       "name": "HLSL Semantic",
-      "scope": ["support.variable.semantic.hlsl"],
+      "scope": [
+        "support.variable.semantic.hlsl"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "Groovy Inheritance",
-      "scope": ["meta.definition.class.inherited.classes.groovy"],
+      "scope": [
+        "meta.definition.class.inherited.classes.groovy"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "Groovy Variables",
-      "scope": ["meta.definition.variable.name.groovy"],
+      "scope": [
+        "meta.definition.variable.name.groovy"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "Groovy Methods",
-      "scope": ["meta.method.groovy"],
+      "scope": [
+        "meta.method.groovy"
+      ],
       "settings": {
         "foreground": "#1E90FF"
       }
     },
     {
       "name": "Groovy import names",
-      "scope": ["storage.modifier.import.groovy"],
+      "scope": [
+        "storage.modifier.import.groovy"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "Makefile text colour",
-      "scope": ["source.makefile"],
+      "scope": [
+        "source.makefile"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "Makefile prerequisities",
-      "scope": ["meta.scope.prerequisites.makefile"],
+      "scope": [
+        "meta.scope.prerequisites.makefile"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "Ini Default Text",
-      "scope": ["source.ini"],
+      "scope": [
+        "source.ini"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "CoffeeScript Function Argument",
-      "scope": ["meta.arguments.coffee", "variable.parameter.function.coffee"],
+      "scope": [
+        "meta.arguments.coffee",
+        "variable.parameter.function.coffee"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "Clojure constants",
-      "scope": ["constant.keyword.clojure"],
+      "scope": [
+        "constant.keyword.clojure"
+      ],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
       "name": "Clojure symbols",
-      "scope": ["meta.symbol.clojure"],
+      "scope": [
+        "meta.symbol.clojure"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "Clojure globals",
-      "scope": ["entity.global.clojure"],
+      "scope": [
+        "entity.global.clojure"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
@@ -395,35 +481,45 @@
     },
     {
       "name": "html/pug (jade) escaped characters and entities",
-      "scope": ["constant.character.entity"],
+      "scope": [
+        "constant.character.entity"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "template literal",
-      "scope": ["punctuation.quasi.element"],
+      "scope": [
+        "punctuation.quasi.element"
+      ],
       "settings": {
         "foreground": "#FF00FF"
       }
     },
     {
       "name": "elm constant",
-      "scope": ["support.constant.elm"],
+      "scope": [
+        "support.constant.elm"
+      ],
       "settings": {
         "foreground": "#FF8C00"
       }
     },
     {
       "name": "elm prelude",
-      "scope": ["support.type.prelude.elm"],
+      "scope": [
+        "support.type.prelude.elm"
+      ],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
       "name": "Go package name",
-      "scope": ["entity.name.package.go"],
+      "scope": [
+        "entity.name.package.go"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
@@ -440,77 +536,99 @@
     },
     {
       "name": "js operator.assignment",
-      "scope": ["keyword.operator.assignment"],
+      "scope": [
+        "keyword.operator.assignment"
+      ],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
       "name": "js template literals variable braces end",
-      "scope": ["keyword.other.substitution.end"],
+      "scope": [
+        "keyword.other.substitution.end"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "js template literals variable braces begin",
-      "scope": ["keyword.other.substitution.begin"],
+      "scope": [
+        "keyword.other.substitution.begin"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "js template literals end",
-      "scope": ["keyword.other.template.end"],
+      "scope": [
+        "keyword.other.template.end"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "js template literals begin",
-      "scope": ["keyword.other.template.begin"],
+      "scope": [
+        "keyword.other.template.begin"
+      ],
       "settings": {
         "foreground": "#6BFF8E"
       }
     },
     {
       "name": "js func parameter",
-      "scope": ["variable.parameter.function.js"],
+      "scope": [
+        "variable.parameter.function.js"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "js class prop",
-      "scope": ["meta.property.object"],
+      "scope": [
+        "meta.property.object"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
     },
     {
       "name": "js Flow",
-      "scope": ["support.type.primitive"],
+      "scope": [
+        "support.type.primitive"
+      ],
       "settings": {
         "foreground": "#FFD700"
       }
     },
     {
       "name": "js Flowtype",
-      "scope": ["support.type.type.flowtype"],
+      "scope": [
+        "support.type.type.flowtype"
+      ],
       "settings": {
         "foreground": "#1E90FF"
       }
     },
     {
       "name": "Import module JS",
-      "scope": ["keyword.operator.module"],
+      "scope": [
+        "keyword.operator.module"
+      ],
       "settings": {
         "foreground": "#FF00FF"
       }
     },
     {
       "name": "Reset JavaScript string interpolation expression",
-      "scope": ["meta.template.expression"],
+      "scope": [
+        "meta.template.expression"
+      ],
       "settings": {
         "foreground": "#7B8A99"
       }
@@ -921,7 +1039,9 @@
     },
     {
       "name": "beginning.punctuation.definition.list.markdown",
-      "scope": ["beginning.punctuation.definition.list.markdown"],
+      "scope": [
+        "beginning.punctuation.definition.list.markdown"
+      ],
       "settings": {
         "foreground": "#FF3366"
       }
